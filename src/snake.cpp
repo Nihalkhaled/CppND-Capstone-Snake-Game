@@ -57,6 +57,8 @@ void Snake::UpdateBody(SDL_Point &current_head_cell, SDL_Point &prev_head_cell) 
     {
   	  size --;
   	  body.pop_back();
+      body.pop_back();
+
     }
   }
     
